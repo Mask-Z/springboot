@@ -4,6 +4,8 @@ import javax.persistence.*;
 import java.util.List;
 
 /**
+ * Author 和 Article 是一对多关系(双向)。那么在JPA中，如何表示一对多的双向关联呢？
+ * JPA使用@OneToMany和@ManyToOne来标识一对多的双向关联。一端(Author)使用@OneToMany,多端(Article)使用@ManyToOne
  * @author 周云龙
  * @date 2018/5/4 11:32
  */

@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
+ * OneToOne关系映射
  * @author 周云龙
  * @date 2018/5/4 9:39
  */
